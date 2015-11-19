@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV for A4 paper format
+% Based on XeLaTeX Template
+%
+% A4 version author:
+% Marvin Frommhold (depressiverobot.com)
+% https://github.com/depressiveRobot/friggeri-cv-a4
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+% example of compile: xelatex cv.tex
+% for some strange reason you needs to compile this document twice! 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Options
+% 'print': remove colors from this template for printing
+% 'nocolors' to disable colors in section headers
+\documentclass[nocolors]{friggeri-cv-a4}
+
+
+\begin{document}
+
+\header{Pavel}{Kharskiy}{DevOps Engineer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+% SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Russian Federation,
+Saint Petersburg,
+13 linia V.O. Apt 56.
+~
++7 (931) 236 9243
+Skype: uquark
+~
+\href{mailto:kharskiy@gmail.com}{kharskiy@gmail.com}
+\href{https://github.com/pashh}{https://github.com/pashh}
+\section{languages}
+russian mother tongue
+english fluency
+\section{programming}
+Python, Java, Ruby, sql, pl/sql
+Linux shell scripts
+\section{vcs}
+Git, Subversion, IBM Rational ClearCase
+\section{tools}
+JBoss, Weblogic, Unix(Linux, FreeBSD), Vagrant, Ansible, MySql/Oracle, Apache/Nginx, Jenkins CI, Ant, Maven, Gerrit, Nexus, SonarQube, SoapUI, Emacs, LaTex, Jira
+\section{methodologies}
+Object-oriented and
+Functional programming principles,
+Software design patterns,
+Software configuration management patterns,
+Agile, Waterfall, Kanban.
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+  
+\entry
+{2003--2008}
+{Masters { of Science}}
+{Samara State University}
+{\emph{Applied Physics} \\ Laser applications; Optical vortices; Micromanipulation; Optics.}
+
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+% WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\subsection{T-Systems}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013--present time}
+{Senior Configuration manager}
+{Saint Petersburg}
+{\emph{} \\
+  Java application management.
+  Implementation and support of automated/continuous build, deploy and test.
+  Prepare release version for customer.
+  Improve project's configuration(upgrade process for Jboss from 5.2 to EAP 6.2 and interact with Red Hat support team).
+  Migrating a code history from ClearCase to git. \\
+  %Contribute to the design and implementation of automated/continuous build, deploy, test and release process
+  
+}
+%------------------------------------------------
+\end{entrylist}
+
+\subsection{Netcracker}
+\begin{entrylist}
+\entry
+{2008--2013}
+{Release Engineer}
+{Samara}
+{\emph{} \\
+  Code review and merge, continuous integration, delivery practice.
+  Migrating from IBM Rational ClearCase - ANT to SVN - Maven.
+  Optimizing, analysing and improve of workflow processes, workforce management.
+  Configuration Management.
+  Teamwork with customers.  
+}
+\end{entrylist}
+
+
+\subsection{The Lebedev Physical Institute of the Russian Academy of Sciences (LPI RAS)}
+\begin{entrylist}
+\entry
+{2005--2008}
+{Engineer}
+{Samara}
+{\emph{} \\
+  Empirical engineering.
+  Research and Development.
+  Preparing a technical articles and scientific publications.
+}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+% AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{awards}
+\begin{entrylist}
+\entry
+{2007}
+{SPIE}
+{The international society for optics and photonics}
+{Awards SPIE Educational Scholarship in Optical Science and Engineering.}
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+% PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\section{publications}
+\begin{entrylist}
+\entry
+{2007}
+{SPIE}
+{Proc. SPIE 6729, 67291C (2007); Digital Object Identifier:
+\href{http://dx.doi.org/10.1117/12.752091}{http://dx.doi.org/10.1117/12.752091}}
+{One-dimensional and singular light fields: interconnection and analysis by means of astigmatic transform.}
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+{2007}
+{Kazan. Gos. Univ. Uchen. Zap.}
+{Ser. Fiz.-Mat. Nauki 149:1 110–114}
+{Spiral beams analysis based on astigmatic transform}
+\end{entrylist}
+
+\section{personal characteristics}
+\textbf{}{High adaptability, high teamwork capability, able to work hard, excellent communication skills and managerial experience, looking challenge, highly motivate and self-drive individual.}
+\textbf{}{Determination, responsibility and absence of bad habits.}
+
+%----------------------------------------------------------------------------------------
+% INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\section{interests}
+%\textbf{professional:}  web app creation, software design, marketing
+%\textbf{personal:} piano, chess, cooking, dancing, running
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
